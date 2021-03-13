@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+body{
+		position:relative;
+		height:125vh;
+		width:125vh;
+		left:6%;
+
+		//background-color:#3ACA69;
+		background:url('background1.jpg') no-repeat;background-size:cover;
+		}
+.holder{width:175vh;}
+.main {
+	float:left;
+	width:127vh;
+	height:90vh;
+	padding:2px;
+    margin-top:7px;
+	overflow:hidden;
+  	border-radius:7px;
+	position:relative;
+}
+/*Styling Card holder on the right side of the webpage*/
+.right {
+
+  float:right;
+  width:45vh;
+  height:125vh;
+  margin-top:7px;
+  text-align:center;
+  border-radius:5px;
+  overflow:hidden;
+}
+/*Styling footer*/
+.footer{
+	background-color:#187ea0;
+	color:white;
+	text-align:center;
+	padding:16px;
+	top:100vh;
+	left:0;
+	right:0;
+	bottom:0;
+	height:28vh;
+	width:175vh;
+	border-radius:5px;
+	position:absolute;
+
+}
+
+h2{color:#17a893}
+
+/*Styling content division of the webpage*/
+
+.content{
+		height:80vh;
+		width:127vh;
+		text-align:center;
+		border:2px solid white;
+		background-color:white;
+		border-radius:5px;
+		margin:0 auto;
+		top:36vh;
+		position:relative;
+		}
+
+.content .profile
+	{
+		position:absolute;
+		margin-top:20px;
+		margin-left:30px;
+		height:190px;
+		width:190px;
+		background:url('kid.jpg') no-repeat;
+		background-size:cover;
+		float:left;
+	}
+.content .info
+	{
+		position:absolute;
+		margin-top:20px;
+		margin-left:240px;
+		height:190px;
+		width:480px;
+		color:#000;
+		float:right;
+		padding:10px;
+		padding-top:0;
+	}
+.info p
+	{
+	font-size:12px;
+	text-align:left;
+	}
+.scrollable-wallpaper
+	{
+	margin:0 auto;
+	height:34vh;
+	width:127vh;
+	border-radius:5px;
+	border:3px solid white;
+	position:absolute;
+	background:url('1.jpg') no-repeat;
+	background-size:cover;
+	
+	} 
+
+.holder{overflow:auto}
+
+/*Styling header*/
+.header ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:175vh;
+	overflow:hidden;
+	background-color:#17a893;
+	border-radius:5px;
+}
+
+.header li{
+	width:25vh;
+	float:left;
+}
+.header li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:15px 17px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:white;
+	color:#17a893;
+}
+a#home{color:yellow;}
+
+
+/*Styling Cards that are on the right side of the webpage*/
+.sideCard1{
+	height:240px;
+	width:100%;
+	margin:3px auto;
+	background: #17a893;
+	float:top;
+	border-radius:5px;
+	position:relative;
+}
+
+.sideCard2{
+	height:220px;
+	width:100%;
+	margin:6px auto;
+	background-color:#409fff;
+	float:top;
+	border-radius:5px;
+	position:relative;
+	
+}
+
+.sideCard1 .links1,.sideCard2 .links2{
+				background: rgba(0,0,0,0.3);
+				height:45px;
+				width:100%;
+				position:absolute;
+				left:0;
+				right:0;
+				bottom:0;
+				border-radius:0px 0px 5px 5px;
+				}
+
+/*.sideCard2 .links2{
+
+				background: rgba(0,0,0,0.3);
+				height:45px;
+				width:100%;
+				position:absolute;
+				left:0;
+				right:0;
+				bottom:0;
+				border-radius:0px 0px 5px 5px;
+				}*/
+
+.links1 #left-link,.links2 #left-link
+		{
+		padding:10px;
+		width:50%;
+		color:ghostwhite;
+		text-decoration:none;
+		float:left;
+		text-align:center;
+		font-style:bold;
+		
+		}
+.links1 #right-link,.links2 #right-link
+		{
+		padding:10px;
+		width:50%;
+		color:ghostwhite;
+		text-decoration:none;
+		float:right;
+		text-align:center;
+		font-style:bold;
+		
+		}
+#right-link:hover,#left-link:hover
+		{
+		text-decoration:underline;
+		line-height:24px;
+		}
+
+.sideCard1 ul,.sideCard2 ul
+		{
+		list-style-type:none;
+		padding:10px;
+		padding-left:5px;
+		margin:0;
+		color:white;
+		}
+		.sideCard1 ul li
+		{
+		background-image: url(icons8-news-24.png);
+		background-repeat: no-repeat;
+		background-position: 0 1em;
+		padding-bottom:1em;
+		padding-right:2em;
+		color:white;
+		font-size:12px;
+		padding-top:1em;
+		margin-left:3em;
+		}
+		.sideCard2 ul li
+		{
+		background-image: url(icons8-calendar-10-24.png);
+		background-repeat: no-repeat;
+		background-position: 0 1em;
+		padding-bottom:1em;
+		padding-right:2em;
+		color:white;
+		font-size:12px;
+		padding-top:1em;
+		margin-left:3em;
+		}
+
+
+		
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+ .main, .right,.sideCard1,.sideCard2,.content
+  {
+    width:100%;
+  }
+  
+	li{width:100%;}
+}
+
